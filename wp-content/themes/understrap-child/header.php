@@ -22,6 +22,7 @@ $container = get_theme_mod('understrap_container_type');
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="google-site-verification" content="MBgl9E2XFGoXn2r_wK8-G6Z99spPquTerAh0bCBfWFk" />
 	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="canonical" href="https://thetracylawgroup.com" />
 	<?php wp_head(); ?>
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-5JV91YXNTW"></script>
