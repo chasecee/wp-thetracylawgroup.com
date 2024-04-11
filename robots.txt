@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://thetracylawgroup.com/sitemap_index.xml
