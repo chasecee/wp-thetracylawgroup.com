@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//Mac OS X 10.14.6//EN
+N:Reilly;Steven;J.;;
+FN:Steven J. Reilly
+ORG:The Tracy Law Group;
+TITLE:Associate
+EMAIL;type=INTERNET;type=WORK;type=pref:steven@thetracylawgroup.com
+TEL;type=WORK;type=VOICE;type=pref:(206) 624-9894
+TEL;type=WORK;type=FAX:(206) 624-8598
+ADR;type=WORK;type=pref:;;1601 Fifth Avenue\, Suite 610;Seattle;WA;98101;United States of America"
+URL;type=WORK;type=pref:www.thetracylawgroup.com
+UID:0a2521e9-0501-433a-8890-ed92222cb49a
+X-ABUID:ABE484EB-0588-4755-853A-4201C65636C4:ABPerson
+END:VCARD

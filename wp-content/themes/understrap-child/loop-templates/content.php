@@ -1,0 +1,42 @@
+<?php
+/**
+ * Post rendering content according to caller of get_template_part.
+ *
+ * @package understrap
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+?>
+
+<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+
+	<header class="entry-header">
+
+		<?php
+		the_title(
+			sprintf( '<h4 class="entry-title"><a href="%s" class="text-secondary" rel="bookmark">', esc_url( get_permalink() ) ),
+			'</a></h4>'
+		);
+		?>
+
+		<?php if ( 'post' == get_post_type() ) : ?>
+
+			<div class="entry-meta text-black-50 text-smaller mb-3">
+				<?php understrap_posted_on(); ?>
+			</div><!-- .entry-meta -->
+
+		<?php endif; ?>
+
+	</header><!-- .entry-header -->
+
+	<div class="entry-content text-black-50">
+
+		<?php the_excerpt(); ?>
+
+	</div><!-- .entry-content -->
+
+
+</article><!-- #post-## -->
+<div class="py-3"></div>

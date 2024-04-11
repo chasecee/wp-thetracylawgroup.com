@@ -1,0 +1,1327 @@
+[2024-04-11 17:22:00] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-04-11 17:22:00] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-04-11 17:22:00] [class-ss-archive-creation-job.php:98] Pushing first task to queue: setup
+[2024-04-11 17:22:01] [class-ss-archive-creation-job.php:132] Current task: setup
+[2024-04-11 17:22:01] [class-ss-archive-creation-job.php:149] Performing task: setup
+[2024-04-11 17:22:01] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-04-11 17:22:01] [class-ss-setup-task.php:33] Creating archive directory: /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/
+[2024-04-11 17:22:01] [class-ss-setup-task.php:79] Adding origin URL to queue: http://wp-thetracylawgroupcom.local/
+[2024-04-11 17:22:01] [class-ss-setup-task.php:137] File /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/vercel.json exists; adding to queue as: http://wp-thetracylawgroupcom.local/vercel.json
+[2024-04-11 17:22:01] [class-ss-setup-task.php:137] File /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: http://wp-thetracylawgroupcom.local/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-04-11 17:22:01] [class-yoast-integration.php:41] Adding sitemap URL to queue: http://wp-thetracylawgroupcom.local/sitemap.xml
+[2024-04-11 17:22:01] [class-yoast-integration.php:41] Adding sitemap URL to queue: http://wp-thetracylawgroupcom.local/sitemap_index.xml
+[2024-04-11 17:22:01] [class-ss-archive-creation-job.php:171] We've found our next task: fetch_urls
+[2024-04-11 17:22:01] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-11 17:22:01] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-11 17:22:01] [class-ss-fetch-urls-task.php:55] Total pages: 5; Pages remaining: 5
+[2024-04-11 17:22:01] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-04-11 17:22:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 5
+[2024-04-11 17:22:01] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c39e43d6-VvMzYc.tmp
+[2024-04-11 17:22:01] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js?simply_static_page=1107
+[2024-04-11 17:22:01] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js?simply_static_page=1107
+[2024-04-11 17:22:01] [class-ss-url-fetcher.php:103] Filesize: 2240 bytes
+[2024-04-11 17:22:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-04-11 17:22:01] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-04-11 17:22:01] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c39e43d6-VvMzYc.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-04-11 17:22:01] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:01] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:01] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:01] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/sitemap.xml
+[2024-04-11 17:22:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 5
+[2024-04-11 17:22:01] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c39e5bfc-VXrWbw.tmp
+[2024-04-11 17:22:01] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/sitemap.xml?simply_static_page=1108
+[2024-04-11 17:22:01] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/sitemap.xml?simply_static_page=1108
+[2024-04-11 17:22:05] [class-ss-url-fetcher.php:103] Filesize: 28302 bytes
+[2024-04-11 17:22:05] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:05] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3de3d80-FA0wMy.tmp
+[2024-04-11 17:22:05] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/sitemap.xml
+[2024-04-11 17:22:05] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-04-11 17:22:05] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:05] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:05] [class-ss-fetch-urls-task.php:190] redirect_url: http://wp-thetracylawgroupcom.local/sitemap_index.xml
+[2024-04-11 17:22:05] [class-ss-fetch-urls-task.php:217] Redirect URL is on the same domain; adding the URL to the queue
+[2024-04-11 17:22:05] [class-ss-fetch-urls-task.php:229] Creating a redirect page
+[2024-04-11 17:22:05] [class-ss-url-fetcher.php:233] New filename for static page: sitemap.xml
+[2024-04-11 17:22:05] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/sitemap_index.xml
+[2024-04-11 17:22:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 5
+[2024-04-11 17:22:05] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3deb62c-Cnseb0.tmp
+[2024-04-11 17:22:05] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/sitemap_index.xml?simply_static_page=1109
+[2024-04-11 17:22:05] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/sitemap_index.xml?simply_static_page=1109
+[2024-04-11 17:22:05] [class-ss-url-fetcher.php:103] Filesize: 677 bytes
+[2024-04-11 17:22:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-04-11 17:22:05] [class-ss-url-fetcher.php:233] New filename for static page: sitemap_index.xml
+[2024-04-11 17:22:05] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3deb62c-Cnseb0.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/sitemap_index.xml
+[2024-04-11 17:22:05] [class-ss-yoast-sitemap-handler.php:85] Copied /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/main-sitemap.xsl
+[2024-04-11 17:22:05] [class-ss-yoast-sitemap-handler.php:64] Copied /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/sitemap_index.xml to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/sitemap.xml
+[2024-04-11 17:22:05] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:05] [class-ss-fetch-urls-task.php:144] Adding 4 URLs to the queue
+[2024-04-11 17:22:05] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:05] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/
+[2024-04-11 17:22:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 5
+[2024-04-11 17:22:05] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3defd2d-9WfqRo.tmp
+[2024-04-11 17:22:05] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/?simply_static_page=1105
+[2024-04-11 17:22:05] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/?simply_static_page=1105
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 42413 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: index.html
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3defd2d-9WfqRo.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/index.html
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 39 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/vercel.json
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 5
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e0a4e9-etE0FR.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/vercel.json?simply_static_page=1106
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/vercel.json?simply_static_page=1106
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 24 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: vercel.json
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e0a4e9-etE0FR.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/vercel.json
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 5 pages/files
+[2024-04-11 17:22:06] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-11 17:22:06] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-11 17:22:06] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:55] Total pages: 47; Pages remaining: 42
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/main-sitemap.xsl
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e0b6de-NSi9G9.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/main-sitemap.xsl?simply_static_page=1110
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/main-sitemap.xsl?simply_static_page=1110
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 4171 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml;charset=UTF-8
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: main-sitemap.xsl
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e0b6de-NSi9G9.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/main-sitemap.xsl
+[2024-04-11 17:22:06] [class-ss-yoast-sitemap-handler.php:64] Copied /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/sitemap_index.xml to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/sitemap.xml
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/page-sitemap.xml
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e0f15b-3sI4Mw.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/page-sitemap.xml?simply_static_page=1111
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/page-sitemap.xml?simply_static_page=1111
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 2143 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: page-sitemap.xml
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e0f15b-3sI4Mw.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/page-sitemap.xml
+[2024-04-11 17:22:06] [class-ss-yoast-sitemap-handler.php:64] Copied /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/sitemap_index.xml to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/sitemap.xml
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 12 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/attorney-sitemap.xml
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e13964-1oVwYS.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/attorney-sitemap.xml?simply_static_page=1112
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/attorney-sitemap.xml?simply_static_page=1112
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 1188 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: attorney-sitemap.xml
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e13964-1oVwYS.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/attorney-sitemap.xml
+[2024-04-11 17:22:06] [class-ss-yoast-sitemap-handler.php:64] Copied /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/sitemap_index.xml to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/sitemap.xml
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 5 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/attachment-sitemap.xml
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e1791c-FSVD1D.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/attachment-sitemap.xml?simply_static_page=1113
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/attachment-sitemap.xml?simply_static_page=1113
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 3366 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: attachment-sitemap.xml
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e1791c-FSVD1D.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/attachment-sitemap.xml
+[2024-04-11 17:22:06] [class-ss-yoast-sitemap-handler.php:64] Copied /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/sitemap_index.xml to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/sitemap.xml
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 21 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/attorneys/
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e1e3b1-2XFhha.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/attorneys/?simply_static_page=1114
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/attorneys/?simply_static_page=1114
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 37131 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: attorneys/index.html
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e1e3b1-2XFhha.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/attorneys/index.html
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 32 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/personal-debt-relief/
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e2909c-1NQFUy.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/personal-debt-relief/?simply_static_page=1115
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/personal-debt-relief/?simply_static_page=1115
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 56926 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: personal-debt-relief/index.html
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e2909c-1NQFUy.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/personal-debt-relief/index.html
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 26 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/business-practice/
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e33d64-gkgHx6.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/business-practice/?simply_static_page=1116
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/business-practice/?simply_static_page=1116
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 36541 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: business-practice/index.html
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e33d64-gkgHx6.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/business-practice/index.html
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 25 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/receiverships/
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e3d387-ZTDqJO.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/receiverships/?simply_static_page=1117
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/receiverships/?simply_static_page=1117
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 32781 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: receiverships/index.html
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e3d387-ZTDqJO.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/receiverships/index.html
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 25 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/firm-news/
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e46524-Cn432J.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/firm-news/?simply_static_page=1118
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/firm-news/?simply_static_page=1118
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 39670 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: firm-news/index.html
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e46524-Cn432J.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/firm-news/index.html
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 25 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/contact/
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e4fe13-9ItOQV.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/contact/?simply_static_page=1119
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/contact/?simply_static_page=1119
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 33268 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: contact/index.html
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e4fe13-9ItOQV.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/contact/index.html
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 26 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2020/05/the_tracy_law_group_hero-1560x936.jpg
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e59100-8QtAO3.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2020/05/the_tracy_law_group_hero-1560x936.jpg?simply_static_page=1120
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2020/05/the_tracy_law_group_hero-1560x936.jpg?simply_static_page=1120
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 163941 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2020/05/the_tracy_law_group_hero-1560x936.jpg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e59100-8QtAO3.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2020/05/the_tracy_law_group_hero-1560x936.jpg
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/attorneys
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e5a407-i8MVyc.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/attorneys?simply_static_page=1121
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/attorneys?simply_static_page=1121
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:190] redirect_url: http://wp-thetracylawgroupcom.local/attorneys/
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:199] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/2-1024x683.jpg
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e5ddbe-2gIWTR.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/2-1024x683.jpg?simply_static_page=1122
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/2-1024x683.jpg?simply_static_page=1122
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 58511 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/05/2-1024x683.jpg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e5ddbe-2gIWTR.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/05/2-1024x683.jpg
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/08/DSC09510_3000x4500-1-2000x1200_8da8865e361209dd1a306f7f6cf76f3f-1560x936.jpg
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e5ed8c-x6A0gZ.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/08/DSC09510_3000x4500-1-2000x1200_8da8865e361209dd1a306f7f6cf76f3f-1560x936.jpg?simply_static_page=1123
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/08/DSC09510_3000x4500-1-2000x1200_8da8865e361209dd1a306f7f6cf76f3f-1560x936.jpg?simply_static_page=1123
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 949688 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/08/DSC09510_3000x4500-1-2000x1200_8da8865e361209dd1a306f7f6cf76f3f-1560x936.jpg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e5ed8c-x6A0gZ.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/08/DSC09510_3000x4500-1-2000x1200_8da8865e361209dd1a306f7f6cf76f3f-1560x936.jpg
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/contact
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e60bd6-cP0ugq.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/contact?simply_static_page=1124
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/contact?simply_static_page=1124
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:190] redirect_url: http://wp-thetracylawgroupcom.local/contact/
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:199] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/attorneys/jamie-mcfarlane/
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e644fe-5Ml3Ma.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/attorneys/jamie-mcfarlane/?simply_static_page=1125
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/attorneys/jamie-mcfarlane/?simply_static_page=1125
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 37095 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: attorneys/jamie-mcfarlane/index.html
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e644fe-5Ml3Ma.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/attorneys/jamie-mcfarlane/index.html
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 33 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/attorneys/j-todd-tracy/
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e6e80d-CDNywK.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/attorneys/j-todd-tracy/?simply_static_page=1126
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/attorneys/j-todd-tracy/?simply_static_page=1126
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 39103 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: attorneys/j-todd-tracy/index.html
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e6e80d-CDNywK.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/attorneys/j-todd-tracy/index.html
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 34 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/disclaimer/
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e79298-0RONfo.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/disclaimer/?simply_static_page=1127
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/disclaimer/?simply_static_page=1127
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 31342 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: disclaimer/index.html
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e79298-0RONfo.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/disclaimer/index.html
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 25 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/privacy-policy/
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e82228-gAYjJW.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/privacy-policy/?simply_static_page=1128
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/privacy-policy/?simply_static_page=1128
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 34974 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: privacy-policy/index.html
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e82228-gAYjJW.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/privacy-policy/index.html
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 25 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/disclaimer
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e8b927-RznMSg.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/disclaimer?simply_static_page=1129
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/disclaimer?simply_static_page=1129
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:190] redirect_url: http://wp-thetracylawgroupcom.local/disclaimer/
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:199] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2022/04/DSC09462_3000x2000-2-600x503.jpeg
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e8f2f2-qmuhEf.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2022/04/DSC09462_3000x2000-2-600x503.jpeg?simply_static_page=1130
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2022/04/DSC09462_3000x2000-2-600x503.jpeg?simply_static_page=1130
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 321862 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2022/04/DSC09462_3000x2000-2-600x503.jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e8f2f2-qmuhEf.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2022/04/DSC09462_3000x2000-2-600x503.jpeg
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2022/04/DSC09462_3000x2000-2-1560x1308.jpeg
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e9064c-prr1rB.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2022/04/DSC09462_3000x2000-2-1560x1308.jpeg?simply_static_page=1131
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2022/04/DSC09462_3000x2000-2-1560x1308.jpeg?simply_static_page=1131
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 1956724 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2022/04/DSC09462_3000x2000-2-1560x1308.jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e9064c-prr1rB.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2022/04/DSC09462_3000x2000-2-1560x1308.jpeg
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2022/04/DSC09462_3000x2000-2-768x644.jpeg
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e93a28-QksNT0.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2022/04/DSC09462_3000x2000-2-768x644.jpeg?simply_static_page=1132
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2022/04/DSC09462_3000x2000-2-768x644.jpeg?simply_static_page=1132
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 514157 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2022/04/DSC09462_3000x2000-2-768x644.jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e93a28-QksNT0.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2022/04/DSC09462_3000x2000-2-768x644.jpeg
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2022/04/DSC09462_3000x2000-2-1536x1288.jpeg
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e94f12-rW7EGp.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2022/04/DSC09462_3000x2000-2-1536x1288.jpeg?simply_static_page=1133
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2022/04/DSC09462_3000x2000-2-1536x1288.jpeg?simply_static_page=1133
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 1897120 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2022/04/DSC09462_3000x2000-2-1536x1288.jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e94f12-rW7EGp.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2022/04/DSC09462_3000x2000-2-1536x1288.jpeg
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2022/04/DSC09462_3000x2000-2.jpeg
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e97d21-zTXwOS.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2022/04/DSC09462_3000x2000-2.jpeg?simply_static_page=1134
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2022/04/DSC09462_3000x2000-2.jpeg?simply_static_page=1134
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 3594562 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2022/04/DSC09462_3000x2000-2.jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e97d21-zTXwOS.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2022/04/DSC09462_3000x2000-2.jpeg
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09423-copy-e1565137570389-500x500.jpg
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e9cbd3-BMRjK0.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09423-copy-e1565137570389-500x500.jpg?simply_static_page=1135
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09423-copy-e1565137570389-500x500.jpg?simply_static_page=1135
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 121758 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/05/DSC09423-copy-e1565137570389-500x500.jpg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e9cbd3-BMRjK0.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/05/DSC09423-copy-e1565137570389-500x500.jpg
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-500x500.jpg
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e9d9d1-fPgYZp.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-500x500.jpg?simply_static_page=1136
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-500x500.jpg?simply_static_page=1136
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 117756 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-500x500.jpg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e9d9d1-fPgYZp.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-500x500.jpg
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/feed/
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3e9e72d-VPK4MT.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/feed/?simply_static_page=1137
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/feed/?simply_static_page=1137
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 1149 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: feed/index.xml
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3e9e72d-VPK4MT.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/feed/index.xml
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 3 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/mmr/546b25f7-1712856083.min.css
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3ea2b22-p7znw4.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/mmr/546b25f7-1712856083.min.css?simply_static_page=1138
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/mmr/546b25f7-1712856083.min.css?simply_static_page=1138
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 335610 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/mmr/546b25f7-1712856083.min.css
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3ea2b22-p7znw4.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/mmr/546b25f7-1712856083.min.css
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 5 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/mmr/05fc0d8b-1709078734.min.css
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3ea5bef-f4Rjfg.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/mmr/05fc0d8b-1709078734.min.css?simply_static_page=1139
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/mmr/05fc0d8b-1709078734.min.css?simply_static_page=1139
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 10190 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/mmr/05fc0d8b-1709078734.min.css
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3ea5bef-f4Rjfg.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/mmr/05fc0d8b-1709078734.min.css
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 4 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-json/
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://wp-thetracylawgroupcom.local/wp-json/
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-json/wp/v2/pages/14
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://wp-thetracylawgroupcom.local/wp-json/wp/v2/pages/14
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/xmlrpc.php
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://wp-thetracylawgroupcom.local/xmlrpc.php
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-json/oembed/1.0/embed
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://wp-thetracylawgroupcom.local/wp-json/oembed/1.0/embed
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/08/cropped-ttlg-favi5-32x32.png
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3ea7ede-DZHM0d.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/08/cropped-ttlg-favi5-32x32.png?simply_static_page=1144
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/08/cropped-ttlg-favi5-32x32.png?simply_static_page=1144
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 556 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/08/cropped-ttlg-favi5-32x32.png
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3ea7ede-DZHM0d.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/08/cropped-ttlg-favi5-32x32.png
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/08/cropped-ttlg-favi5-192x192.png
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3ea8a19-qI9nM6.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/08/cropped-ttlg-favi5-192x192.png?simply_static_page=1145
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/08/cropped-ttlg-favi5-192x192.png?simply_static_page=1145
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 5232 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/08/cropped-ttlg-favi5-192x192.png
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3ea8a19-qI9nM6.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/08/cropped-ttlg-favi5-192x192.png
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/08/cropped-ttlg-favi5-180x180.png
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3ea9477-cv5CNX.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/08/cropped-ttlg-favi5-180x180.png?simply_static_page=1146
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/08/cropped-ttlg-favi5-180x180.png?simply_static_page=1146
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 12453 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/08/cropped-ttlg-favi5-180x180.png
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3ea9477-cv5CNX.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/08/cropped-ttlg-favi5-180x180.png
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/mmr/a4950ac3-1693242863.min.js
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3eaa005-K52L2T.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/mmr/a4950ac3-1693242863.min.js?simply_static_page=1147
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/mmr/a4950ac3-1693242863.min.js?simply_static_page=1147
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 101270 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/mmr/a4950ac3-1693242863.min.js
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3eaa005-K52L2T.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/mmr/a4950ac3-1693242863.min.js
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/mmr/831f20cf-1710828133.min.js
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3eab54d-A6iSJt.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/mmr/831f20cf-1710828133.min.js?simply_static_page=1148
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/mmr/831f20cf-1710828133.min.js?simply_static_page=1148
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 148196 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/mmr/831f20cf-1710828133.min.js
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3eab54d-A6iSJt.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/mmr/831f20cf-1710828133.min.js
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09583-2-2.jpg
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3eace6f-LYGU81.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09583-2-2.jpg?simply_static_page=1149
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09583-2-2.jpg?simply_static_page=1149
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 2759921 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/05/DSC09583-2-2.jpg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3eace6f-LYGU81.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/05/DSC09583-2-2.jpg
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/08/cropped-ttlg-favi5-270x270.png
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3eb0d07-EBGS8v.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/08/cropped-ttlg-favi5-270x270.png?simply_static_page=1150
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/08/cropped-ttlg-favi5-270x270.png?simply_static_page=1150
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 24719 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/08/cropped-ttlg-favi5-270x270.png
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3eb0d07-EBGS8v.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/08/cropped-ttlg-favi5-270x270.png
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/loading.gif
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 47
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3eb189c-SOjVep.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/loading.gif?simply_static_page=1151
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/loading.gif?simply_static_page=1151
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 9989 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/05/loading.gif
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3eb189c-SOjVep.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/05/loading.gif
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 5 of 47 pages/files
+[2024-04-11 17:22:06] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-11 17:22:06] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-11 17:22:06] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:55] Total pages: 104; Pages remaining: 57
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/plugins/new-royalslider/lib/royalslider/skins/preloaders/preloader-white.gif
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:50; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3eb29d9-ySte3T.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/plugins/new-royalslider/lib/royalslider/skins/preloaders/preloader-white.gif?simply_static_page=1208
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/plugins/new-royalslider/lib/royalslider/skins/preloaders/preloader-white.gif?simply_static_page=1208
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 869 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/new-royalslider/lib/royalslider/skins/preloaders/preloader-white.gif
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3eb29d9-ySte3T.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/plugins/new-royalslider/lib/royalslider/skins/preloaders/preloader-white.gif
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/plugins/new-royalslider/lib/royalslider/skins/universal/rs-universal.png
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:49; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3eb367e-Nx6urR.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/plugins/new-royalslider/lib/royalslider/skins/universal/rs-universal.png?simply_static_page=1207
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/plugins/new-royalslider/lib/royalslider/skins/universal/rs-universal.png?simply_static_page=1207
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 5633 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/new-royalslider/lib/royalslider/skins/universal/rs-universal.png
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3eb367e-Nx6urR.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/plugins/new-royalslider/lib/royalslider/skins/universal/rs-universal.png
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/plugins/new-royalslider/lib/royalslider/grabbing.png
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:48; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3eb41cb-tuGtnR.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/plugins/new-royalslider/lib/royalslider/grabbing.png?simply_static_page=1206
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/plugins/new-royalslider/lib/royalslider/grabbing.png?simply_static_page=1206
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 2889 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/new-royalslider/lib/royalslider/grabbing.png
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3eb41cb-tuGtnR.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/plugins/new-royalslider/lib/royalslider/grabbing.png
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/plugins/new-royalslider/lib/royalslider/grab.png
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:47; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3eb4cc1-ODyeDi.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/plugins/new-royalslider/lib/royalslider/grab.png?simply_static_page=1205
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/plugins/new-royalslider/lib/royalslider/grab.png?simply_static_page=1205
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 99 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/new-royalslider/lib/royalslider/grab.png
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3eb4cc1-ODyeDi.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/plugins/new-royalslider/lib/royalslider/grab.png
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09423-copy-e1565137570389-584x1024.jpg
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3eb5a07-J1saRM.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09423-copy-e1565137570389-584x1024.jpg?simply_static_page=1190
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09423-copy-e1565137570389-584x1024.jpg?simply_static_page=1190
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 314631 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/05/DSC09423-copy-e1565137570389-584x1024.jpg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3eb5a07-J1saRM.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/05/DSC09423-copy-e1565137570389-584x1024.jpg
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-json/wp/v2/attorney/80
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://wp-thetracylawgroupcom.local/wp-json/wp/v2/attorney/80
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/J_Todd_Tracy_vcard.vcf
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3eb6f14-mWnQXF.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/J_Todd_Tracy_vcard.vcf?simply_static_page=1192
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/J_Todd_Tracy_vcard.vcf?simply_static_page=1192
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 402 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/octet-stream
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/05/J_Todd_Tracy_vcard.vcf
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3eb6f14-mWnQXF.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/05/J_Todd_Tracy_vcard.vcf
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-373x600.jpg
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3eb7a3c-MGbZB4.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-373x600.jpg?simply_static_page=1193
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-373x600.jpg?simply_static_page=1193
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 114717 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-373x600.jpg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3eb7a3c-MGbZB4.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-373x600.jpg
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-768x1234.jpg
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3eb86b4-AnBGI5.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-768x1234.jpg?simply_static_page=1194
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-768x1234.jpg?simply_static_page=1194
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 475062 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-768x1234.jpg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3eb86b4-AnBGI5.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-768x1234.jpg
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-956x1536.jpg
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3eb9af3-PNzwAD.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-956x1536.jpg?simply_static_page=1195
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-956x1536.jpg?simply_static_page=1195
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 745651 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-956x1536.jpg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3eb9af3-PNzwAD.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-956x1536.jpg
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-1275x2048.jpg
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3ebb2e0-fVTEh3.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-1275x2048.jpg?simply_static_page=1196
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-1275x2048.jpg?simply_static_page=1196
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 1357660 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-1275x2048.jpg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3ebb2e0-fVTEh3.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881-1275x2048.jpg
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-json/wp/v2/attorney/79
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://wp-thetracylawgroupcom.local/wp-json/wp/v2/attorney/79
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-json/wp/v2/pages/164
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://wp-thetracylawgroupcom.local/wp-json/wp/v2/pages/164
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-json/wp/v2/pages/3
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://wp-thetracylawgroupcom.local/wp-json/wp/v2/pages/3
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/themes/understrap-child/fonts/fontawesome-webfont.eot
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3ebe070-L1oYAa.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/themes/understrap-child/fonts/fontawesome-webfont.eot?simply_static_page=1200
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/themes/understrap-child/fonts/fontawesome-webfont.eot?simply_static_page=1200
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 165742 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/understrap-child/fonts/fontawesome-webfont.eot
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3ebe070-L1oYAa.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/themes/understrap-child/fonts/fontawesome-webfont.eot
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/themes/understrap-child/fonts/fontawesome-webfont.woff2
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3ebef24-YE9nsn.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/themes/understrap-child/fonts/fontawesome-webfont.woff2?simply_static_page=1201
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/themes/understrap-child/fonts/fontawesome-webfont.woff2?simply_static_page=1201
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 77160 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/understrap-child/fonts/fontawesome-webfont.woff2
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3ebef24-YE9nsn.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/themes/understrap-child/fonts/fontawesome-webfont.woff2
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/themes/understrap-child/fonts/fontawesome-webfont.woff
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3ebfcce-gwiLox.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/themes/understrap-child/fonts/fontawesome-webfont.woff?simply_static_page=1202
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/themes/understrap-child/fonts/fontawesome-webfont.woff?simply_static_page=1202
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 98024 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/understrap-child/fonts/fontawesome-webfont.woff
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3ebfcce-gwiLox.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/themes/understrap-child/fonts/fontawesome-webfont.woff
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/themes/understrap-child/fonts/fontawesome-webfont.ttf
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3ec08e8-Shk0Bl.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/themes/understrap-child/fonts/fontawesome-webfont.ttf?simply_static_page=1203
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/themes/understrap-child/fonts/fontawesome-webfont.ttf?simply_static_page=1203
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 165548 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/understrap-child/fonts/fontawesome-webfont.ttf
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3ec08e8-Shk0Bl.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/themes/understrap-child/fonts/fontawesome-webfont.ttf
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/themes/understrap-child/fonts/fontawesome-webfont.svg
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3ec175c-eqUNDG.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/themes/understrap-child/fonts/fontawesome-webfont.svg?simply_static_page=1204
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/themes/understrap-child/fonts/fontawesome-webfont.svg?simply_static_page=1204
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 444379 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/understrap-child/fonts/fontawesome-webfont.svg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3ec175c-eqUNDG.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/themes/understrap-child/fonts/fontawesome-webfont.svg
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/08/newspaper.jpg
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3ec34e4-4bgKjA.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/08/newspaper.jpg?simply_static_page=1152
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/08/newspaper.jpg?simply_static_page=1152
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 331800 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/08/newspaper.jpg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3ec34e4-4bgKjA.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/08/newspaper.jpg
+[2024-04-11 17:22:06] [class-ss-yoast-sitemap-handler.php:64] Copied /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/sitemap_index.xml to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/sitemap.xml
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09447_3000x2000-1.jpg
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3ec47e2-aPS4Ce.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09447_3000x2000-1.jpg?simply_static_page=1153
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09447_3000x2000-1.jpg?simply_static_page=1153
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 2961876 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/05/DSC09447_3000x2000-1.jpg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3ec47e2-aPS4Ce.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/05/DSC09447_3000x2000-1.jpg
+[2024-04-11 17:22:06] [class-ss-yoast-sitemap-handler.php:64] Copied /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/sitemap_index.xml to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/sitemap.xml
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09423-copy-e1565137570389.jpg
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3ec8a78-orksnL.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09423-copy-e1565137570389.jpg?simply_static_page=1154
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09423-copy-e1565137570389.jpg?simply_static_page=1154
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 2017827 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/05/DSC09423-copy-e1565137570389.jpg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3ec8a78-orksnL.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/05/DSC09423-copy-e1565137570389.jpg
+[2024-04-11 17:22:06] [class-ss-yoast-sitemap-handler.php:64] Copied /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/sitemap_index.xml to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/sitemap.xml
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881.jpg
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3ecbb64-WHkR3J.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881.jpg?simply_static_page=1155
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881.jpg?simply_static_page=1155
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 2191386 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881.jpg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3ecbb64-WHkR3J.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/05/DSC09404_3000x4500-1-e1565137175881.jpg
+[2024-04-11 17:22:06] [class-ss-yoast-sitemap-handler.php:64] Copied /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/sitemap_index.xml to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/sitemap.xml
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/home/attachment/2/
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3ecedcc-XYidhe.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/home/attachment/2/?simply_static_page=1156
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/home/attachment/2/?simply_static_page=1156
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 64944 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 410 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/home/attachment/1/
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3ed4207-vS4FoF.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/home/attachment/1/?simply_static_page=1157
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/home/attachment/1/?simply_static_page=1157
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 58468 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 410 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/home/attachment/3/
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3ed9423-wD5OjH.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/home/attachment/3/?simply_static_page=1158
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/home/attachment/3/?simply_static_page=1158
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 66112 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 410 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/attorneys/j-todd-tracy/j_todd_tracy_vcard/
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3ee01dd-nfZ4Tw.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/attorneys/j-todd-tracy/j_todd_tracy_vcard/?simply_static_page=1159
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/attorneys/j-todd-tracy/j_todd_tracy_vcard/?simply_static_page=1159
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 29660 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 410 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/attorneys/jamie-mcfarlane/jamie_mcfarlane/
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3ee5eaa-aZjnAV.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/attorneys/jamie-mcfarlane/jamie_mcfarlane/?simply_static_page=1160
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/attorneys/jamie-mcfarlane/jamie_mcfarlane/?simply_static_page=1160
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 29657 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 410 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/home/dsc09445_3000x4499/
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3eebb97-yya458.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/home/dsc09445_3000x4499/?simply_static_page=1161
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/home/dsc09445_3000x4499/?simply_static_page=1161
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:103] Filesize: 4237476 bytes
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:119] http_status_code: 410 | content_type: image/jpeg
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/home/dsc09583-2/
+[2024-04-11 17:22:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 104
+[2024-04-11 17:22:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3ef337c-JtoP85.tmp
+[2024-04-11 17:22:06] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/home/dsc09583-2/?simply_static_page=1162
+[2024-04-11 17:22:06] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/home/dsc09583-2/?simply_static_page=1162
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 2759921 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 410 | content_type: image/jpeg
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/attorneys/dsc09459_3000x4500/
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f06248-Gj4Pj7.tmp
+[2024-04-11 17:22:07] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/attorneys/dsc09459_3000x4500/?simply_static_page=1163
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/attorneys/dsc09459_3000x4500/?simply_static_page=1163
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 28302 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f0bbd7-mV9ZbF.tmp
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/attorneys/dsc09459_3000x4500/
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 28302 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/attorneys/dsc09450_3000x2000/
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f1165b-zxEtcL.tmp
+[2024-04-11 17:22:07] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/attorneys/dsc09450_3000x2000/?simply_static_page=1164
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/attorneys/dsc09450_3000x2000/?simply_static_page=1164
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 28302 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f170df-OTyAa3.tmp
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/attorneys/dsc09450_3000x2000/
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 28302 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/home/dsc09450-4/
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f1cd49-mCoNJF.tmp
+[2024-04-11 17:22:07] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/home/dsc09450-4/?simply_static_page=1165
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/home/dsc09450-4/?simply_static_page=1165
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 1451367 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 410 | content_type: image/jpeg
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/attorneys/dsc09462_3000x2000-2/
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f237a4-WT4a82.tmp
+[2024-04-11 17:22:07] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/attorneys/dsc09462_3000x2000-2/?simply_static_page=1166
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/attorneys/dsc09462_3000x2000-2/?simply_static_page=1166
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 28302 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f29023-TXMlh4.tmp
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/attorneys/dsc09462_3000x2000-2/
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 28302 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/home/dsc09447_3000x2000/
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f2e917-yp8wsU.tmp
+[2024-04-11 17:22:07] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/home/dsc09447_3000x2000/?simply_static_page=1167
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/home/dsc09447_3000x2000/?simply_static_page=1167
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 2961876 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 410 | content_type: image/jpeg
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/home/dsc09508_3000x2000/
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f35a44-p86eJF.tmp
+[2024-04-11 17:22:07] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/home/dsc09508_3000x2000/?simply_static_page=1168
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/home/dsc09508_3000x2000/?simply_static_page=1168
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 2273918 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 410 | content_type: image/jpeg
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/home/dsc09510_3000x4500/
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f3bb84-UoOr3v.tmp
+[2024-04-11 17:22:07] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/home/dsc09510_3000x4500/?simply_static_page=1169
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/home/dsc09510_3000x4500/?simply_static_page=1169
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 4754074 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 410 | content_type: image/jpeg
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/home/dsc09519_3000x2000/
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f43669-pN66wu.tmp
+[2024-04-11 17:22:07] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/home/dsc09519_3000x2000/?simply_static_page=1170
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/home/dsc09519_3000x2000/?simply_static_page=1170
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 2522975 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 410 | content_type: image/jpeg
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/attorneys/dsc09462_3000x2000/
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f4a4a2-qI4ZY2.tmp
+[2024-04-11 17:22:07] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/attorneys/dsc09462_3000x2000/?simply_static_page=1171
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/attorneys/dsc09462_3000x2000/?simply_static_page=1171
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 28302 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f50e47-wkGGto.tmp
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/attorneys/dsc09462_3000x2000/
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 28302 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/attorneys/jamie-mcfarlane/dsc09423-copy/
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f57ccd-LjNr1Q.tmp
+[2024-04-11 17:22:07] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/attorneys/jamie-mcfarlane/dsc09423-copy/?simply_static_page=1172
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/attorneys/jamie-mcfarlane/dsc09423-copy/?simply_static_page=1172
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 2017827 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 410 | content_type: image/jpeg
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/attorneys/dsc09464_3000x2000/
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f5e455-pCaVMV.tmp
+[2024-04-11 17:22:07] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/attorneys/dsc09464_3000x2000/?simply_static_page=1173
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/attorneys/dsc09464_3000x2000/?simply_static_page=1173
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 28302 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f64099-pBmZHh.tmp
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/attorneys/dsc09464_3000x2000/
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 28302 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/firm-news/newspaper/
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f69dba-IYBGyq.tmp
+[2024-04-11 17:22:07] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/firm-news/newspaper/?simply_static_page=1174
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/firm-news/newspaper/?simply_static_page=1174
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 331800 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 410 | content_type: image/jpeg
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/attorneys/dsc09464_3000x2000-1/
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f70214-ivquKS.tmp
+[2024-04-11 17:22:07] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/attorneys/dsc09464_3000x2000-1/?simply_static_page=1175
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/attorneys/dsc09464_3000x2000-1/?simply_static_page=1175
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 28302 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f75ee8-KOEdVJ.tmp
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/attorneys/dsc09464_3000x2000-1/
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 28302 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-json/wp/v2/pages/95
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://wp-thetracylawgroupcom.local/wp-json/wp/v2/pages/95
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/mmr/e3e117d2-1710828133.min.js
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f7bfdd-3PTnNP.tmp
+[2024-04-11 17:22:07] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/mmr/e3e117d2-1710828133.min.js?simply_static_page=1177
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/mmr/e3e117d2-1710828133.min.js?simply_static_page=1177
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 82601 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/mmr/e3e117d2-1710828133.min.js
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3f7bfdd-3PTnNP.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/mmr/e3e117d2-1710828133.min.js
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/2.jpg
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f7d688-3jvxsy.tmp
+[2024-04-11 17:22:07] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/2.jpg?simply_static_page=1178
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/2.jpg?simply_static_page=1178
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 64944 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/05/2.jpg
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3f7d688-3jvxsy.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/05/2.jpg
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09447_3000x2000-1-1024x682.jpg
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f7e494-GQYzy5.tmp
+[2024-04-11 17:22:07] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09447_3000x2000-1-1024x682.jpg?simply_static_page=1179
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09447_3000x2000-1-1024x682.jpg?simply_static_page=1179
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 501532 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/05/DSC09447_3000x2000-1-1024x682.jpg
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3f7e494-GQYzy5.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/05/DSC09447_3000x2000-1-1024x682.jpg
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/assets/uploads/misc/Intake_Folder_Part_8a_Worksheets.doc
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f7fc08-iOKCUq.tmp
+[2024-04-11 17:22:07] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/assets/uploads/misc/Intake_Folder_Part_8a_Worksheets.doc?simply_static_page=1180
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/assets/uploads/misc/Intake_Folder_Part_8a_Worksheets.doc?simply_static_page=1180
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 28302 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f85f78-Lp00BF.tmp
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/assets/uploads/misc/Intake_Folder_Part_8a_Worksheets.doc
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 28302 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-json/wp/v2/pages/133
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://wp-thetracylawgroupcom.local/wp-json/wp/v2/pages/133
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/08/DSC09510_3000x4500-1-2000x1200_8da8865e361209dd1a306f7f6cf76f3f.jpg
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f8bfe1-bXVtbi.tmp
+[2024-04-11 17:22:07] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/08/DSC09510_3000x4500-1-2000x1200_8da8865e361209dd1a306f7f6cf76f3f.jpg?simply_static_page=1182
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/08/DSC09510_3000x4500-1-2000x1200_8da8865e361209dd1a306f7f6cf76f3f.jpg?simply_static_page=1182
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 1534262 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/08/DSC09510_3000x4500-1-2000x1200_8da8865e361209dd1a306f7f6cf76f3f.jpg
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3f8bfe1-bXVtbi.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/08/DSC09510_3000x4500-1-2000x1200_8da8865e361209dd1a306f7f6cf76f3f.jpg
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:07] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 47 of 104 pages/files
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:55] Total pages: 104; Pages remaining: 7
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-json/wp/v2/pages/136
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://wp-thetracylawgroupcom.local/wp-json/wp/v2/pages/136
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-json/wp/v2/pages/403
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://wp-thetracylawgroupcom.local/wp-json/wp/v2/pages/403
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-json/wp/v2/pages/397
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://wp-thetracylawgroupcom.local/wp-json/wp/v2/pages/397
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-json/wp/v2/pages/92
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://wp-thetracylawgroupcom.local/wp-json/wp/v2/pages/92
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/Jamie_McFarlane.vcf
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f8f8ef-u5msi4.tmp
+[2024-04-11 17:22:07] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/Jamie_McFarlane.vcf?simply_static_page=1187
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/Jamie_McFarlane.vcf?simply_static_page=1187
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 1858 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/octet-stream
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/05/Jamie_McFarlane.vcf
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3f8f8ef-u5msi4.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/05/Jamie_McFarlane.vcf
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09423-copy-e1565137570389-342x600.jpg
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f9051e-fGp4TS.tmp
+[2024-04-11 17:22:07] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09423-copy-e1565137570389-342x600.jpg?simply_static_page=1188
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09423-copy-e1565137570389-342x600.jpg?simply_static_page=1188
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 108736 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/05/DSC09423-copy-e1565137570389-342x600.jpg
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3f9051e-fGp4TS.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/05/DSC09423-copy-e1565137570389-342x600.jpg
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:58] URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09423-copy-e1565137570389-768x1347.jpg
+[2024-04-11 17:22:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 104
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f91dbc-TISauN.tmp
+[2024-04-11 17:22:07] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09423-copy-e1565137570389-768x1347.jpg?simply_static_page=1189
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/wp-content/uploads/2019/05/DSC09423-copy-e1565137570389-768x1347.jpg?simply_static_page=1189
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 557918 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2019/05/DSC09423-copy-e1565137570389-768x1347.jpg
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3f91dbc-TISauN.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/wp-content/uploads/2019/05/DSC09423-copy-e1565137570389-768x1347.jpg
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-11 17:22:07] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 97 of 104 pages/files
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-11 17:22:07] [class-ss-fetch-urls-task.php:55] Total pages: 104; Pages remaining: 0
+[2024-04-11 17:22:07] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 104 of 104 pages/files
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:171] We've found our next task: generate_404
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:132] Current task: generate_404
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:149] Performing task: generate_404
+[2024-04-11 17:22:07] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/66181c3f93d62-QDjGYa.tmp
+[2024-04-11 17:22:07] [class-ss-page-handler.php:38] URL Prepared:http://wp-thetracylawgroupcom.local/1712856128?simply_static_page=0
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local/1712856128?simply_static_page=0
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:103] Filesize: 28302 bytes
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-04-11 17:22:07] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/66181c3f93d62-QDjGYa.tmp to /Users/chase/Local Sites/wp-thetracylawgroupcom/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1712856120/404/index.html
+[2024-04-11 17:22:07] [class-ss-generate-404-task.php:105] Replacing URLs in the static file
+[2024-04-11 17:22:07] [class-ss-generate-404-task.php:111] We're saving this URL; keeping the static file
+[2024-04-11 17:22:07] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:171] We've found our next task: transfer_files_locally
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:132] Current task: transfer_files_locally
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:149] Performing task: transfer_files_locally
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:77] Total pages: 66; Pages remaining: 50
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-task.php:44] Status message: [transfer_files_locally] Copied 16 of 66 files
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:177] We're not done with the transfer_files_locally task yet
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:132] Current task: transfer_files_locally
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:149] Performing task: transfer_files_locally
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:77] Total pages: 66; Pages remaining: 16
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-11 17:22:07] [class-ss-task.php:44] Status message: [transfer_files_locally] Copied 50 of 66 files
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:177] We're not done with the transfer_files_locally task yet
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:132] Current task: transfer_files_locally
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:149] Performing task: transfer_files_locally
+[2024-04-11 17:22:07] [class-ss-transfer-files-locally-task.php:77] Total pages: 66; Pages remaining: 0
+[2024-04-11 17:22:07] [class-ss-task.php:44] Status message: [transfer_files_locally] Copied 66 of 66 files
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:171] We've found our next task: wrapup
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:132] Current task: wrapup
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:149] Performing task: wrapup
+[2024-04-11 17:22:07] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-04-11 17:22:07] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:166] This task is done and there are no more tasks, time to complete the job
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:193] Completing the job
+[2024-04-11 17:22:07] [class-ss-archive-creation-job.php:320] Status message: [done] Done! Finished in 00:00:07
+[2024-04-11 17:25:29] [class-ss-url-fetcher.php:251] Fetching URL: http://wp-thetracylawgroupcom.local
