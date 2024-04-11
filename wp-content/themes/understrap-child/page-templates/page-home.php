@@ -36,11 +36,11 @@ $container = get_theme_mod('understrap_container_type');
 						<?php if (have_rows('practice_areas')) : while (have_rows('practice_areas')) : the_row();  ?>
 								<div class="col-sm-4 pt-4">
 									<div class="icon-large text-secondary mb-3 bigicon"> <?php the_sub_field('icon'); ?></div>
-									<h5><?php echo  get_sub_field('title'); ?></h5>
+									<h5><?php echo get_sub_field('title'); ?></h5>
 
 									<p class="text-black-50 "><?php the_sub_field('description'); ?></p>
 									<a class="btn btn-sm btn-outline-secondary" href="<?php the_sub_field('link'); ?>" title="<?php the_sub_field('title'); ?>">
-										Read More
+										Learn about <?php echo get_sub_field('title'); ?>
 									</a>
 									<!-- <div class="d-sm-none pb-4"></div> -->
 								</div>
@@ -83,7 +83,7 @@ $container = get_theme_mod('understrap_container_type');
 					</div>
 					<div class="pb-5 row text-center">
 						<div class="col">
-							<a href="/attorneys" class="btn btn-outline-primary d-none d-md-inline-block">Read More</a>
+							<a href="/attorneys" class="btn btn-outline-primary d-none d-md-inline-block">Read More about Our Attorneys</a>
 						</div>
 					</div>
 				</div>
