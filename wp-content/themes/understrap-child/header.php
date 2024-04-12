@@ -36,7 +36,7 @@ $container = get_theme_mod('understrap_container_type');
 
 		gtag('config', 'G-5JV91YXNTW');
 	</script>
-
+	<script defer data-domain="thetracylawgroup.vercel.app" src="https://crcserver.com/js/script.js"></script>
 </head>
 
 <body <?php body_class(); ?> data-spy="scroll" data-target="#list-example" data-offset="200">
