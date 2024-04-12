@@ -21,6 +21,7 @@ $container = get_theme_mod('understrap_container_type');
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="google-site-verification" content="MBgl9E2XFGoXn2r_wK8-G6Z99spPquTerAh0bCBfWFk" />
+	<meta name="ahrefs-site-verification" content="acabcf2dd4ed6a214124311d7d7ce777e15d614c01d5b20503431964b182c6b7">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="canonical" href="https://thetracylawgroup.com" />
 	<?php wp_head(); ?>

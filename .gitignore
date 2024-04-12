@@ -5,6 +5,8 @@ wp-includes/*
 
 # Except for the uploads, new-royalslider plugin, and understrap themes
 !wp-content/uploads/
+wp-content/uploads/simply-static/
+/simply-static/*
 !wp-content/plugins/new-royalslider/
 !wp-content/themes/
 !wp-content/themes/understrap/
@@ -28,5 +30,3 @@ readme.html
 index.php
 license.txt
 local-xdebuginfo.php
-wp-content/uploads/simply-static/
-wp-content/uploads/simply-static/*
