@@ -64,3 +64,10 @@ function add_lazy_loading_to_attachment_images($attr, $attachment, $size)
     return $attr;
 }
 add_filter('wp_get_attachment_image_attributes', 'add_lazy_loading_to_attachment_images', 10, 3);
+
+// add_filter('wpseo_sitemap_exclude_post_type', function ($exclude, $post_type) {
+//     if ($post_type === 'attachment') {
+//         $exclude = true;
+//     }
+//     return $exclude;
+// }, 10, 2);
