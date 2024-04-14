@@ -22,6 +22,7 @@ function theme_enqueue_styles()
     // Get the theme data
     $the_theme = wp_get_theme();
     wp_enqueue_style('child-understrap-styles', get_stylesheet_directory_uri() . '/css/child-theme.min.css', array(), $the_theme->get('Version'));
+    wp_enqueue_style('new-styles', get_stylesheet_directory_uri() . '/style.css', array(), $the_theme->get('Version'));
     wp_enqueue_script('jquery');
     wp_enqueue_script('child-understrap-scripts', get_stylesheet_directory_uri() . '/js/child-theme.min.js', array(), $the_theme->get('Version'), true);
     wp_enqueue_script('custom-scripts', get_stylesheet_directory_uri() . '/js/custom.js', array(), $the_theme->get('Version'), true);
@@ -37,11 +38,11 @@ add_action('after_setup_theme', 'add_child_theme_textdomain');
 
 require_once(get_stylesheet_directory() . '/custom_functions.php');
 
-function wpb_add_google_fonts()
-{
-    wp_enqueue_style('wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Playfair+Display:400,700,700i|Carrois+Gothic+SC|Carrois+Gothic', false);
-}
-add_action('wp_enqueue_scripts', 'wpb_add_google_fonts');
+// function wpb_add_google_fonts()
+// {
+//     wp_enqueue_style('wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Playfair+Display:400,700,700i|Carrois+Gothic+SC|Carrois+Gothic', false);
+// }
+// add_action('wp_enqueue_scripts', 'wpb_add_google_fonts');
 
 /** ALLOW CUSTOM MIME TYPES */
 
@@ -71,3 +72,10 @@ add_filter('wp_get_attachment_image_attributes', 'add_lazy_loading_to_attachment
 //     }
 //     return $exclude;
 // }, 10, 2);
+// function remove_jquery_migrate()
+// {
+//     if (!is_admin()) { // Ensure to exclude it from admin area to avoid any potential issues there
+//         wp_deregister_script('jquery-migrate');
+//     }
+// }
+// add_action('wp_default_scripts', 'remove_jquery_migrate');
