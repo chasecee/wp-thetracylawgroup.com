@@ -81,9 +81,11 @@ $container = get_theme_mod('understrap_container_type');
 						</div>
 
 					</div>
-					<div class="pb-5 row text-center">
-						<div class="col">
-							<a href="/attorneys" class="btn btn-outline-primary d-none d-md-inline-block">Read More about Our Attorneys</a>
+					<div class="wrapper" style="overflow: hidden;">
+						<div class="pb-5 row text-center">
+							<div class="col">
+								<a href="/attorneys" class="btn btn-outline-primary d-none d-md-inline-block">Read More about Our Attorneys</a>
+							</div>
 						</div>
 					</div>
 				</div>
